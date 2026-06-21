@@ -1,0 +1,72 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: 'Pretendard', sans-serif;
+    background-color: #f7f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.button-group {
+    margin-bottom: 30px;
+}
+
+/* 기본 버튼 스타일 */
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* 흰색 버튼 (포메라니안) */
+.white-btn {
+    background-color: #ffffff;
+    color: #333;
+    border: 2px solid #ddd;
+}
+
+.white-btn:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+/* 갈색 버튼 (웰시코기) */
+.brown-btn {
+    background-color: #8B4513;
+    color: #ffffff;
+    border: 2px solid #8B4513;
+}
+
+.brown-btn:hover {
+    background-color: #6b340e;
+    border-color: #6b340e;
+}
+
+/* 강아지 이미지 스타일 */
+#dog-image {
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
